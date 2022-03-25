@@ -21,7 +21,8 @@ spark process code using pyspark: main.py
 create a folder to contain the data source .csv file
 <img width="617" alt="image" src="https://user-images.githubusercontent.com/47130690/160037782-3c2310c4-707f-49ab-9bac-8d3017bfedd7.png">
 <img width="615" alt="image" src="https://user-images.githubusercontent.com/47130690/160037828-ca9aec36-a08d-4459-a00f-cc09538c6bfd.png">
-upload weather-data.csv file
+upload weather-data.csv file.  
+
 <img width="618" alt="image" src="https://user-images.githubusercontent.com/47130690/160037870-2fbfb1d9-34d5-4b7b-8e21-8730854e9aca.png">
 
 ## Code
@@ -81,11 +82,15 @@ if __name__ == '__main__':
 ```
 
 ## SSH to EMR cluster
-Now the EMR cluster is ready:
-<img width="623" alt="image" src="https://user-images.githubusercontent.com/47130690/160038038-685fe791-1817-4d02-bcbd-ef7f272f6aff.png">
-add port 20 ssh to master node's security group
+Now the EMR cluster is ready:  
 
-ssh to EMR cluster \n
+<img width="623" alt="image" src="https://user-images.githubusercontent.com/47130690/160038038-685fe791-1817-4d02-bcbd-ef7f272f6aff.png">   
+
+add port 20 ssh to master node's security group  
+
+
+ssh to EMR cluster  
+
 <img width="603" alt="image" src="https://user-images.githubusercontent.com/47130690/160038156-b6c8b876-01f2-4c5f-b0cd-266cdfe01eca.png">
 
 ## spark job on EMR cluster
@@ -101,9 +106,11 @@ $ spark-submit main.py
 in terminal print-out:
 <img width="580" alt="image" src="https://user-images.githubusercontent.com/47130690/160038403-267801ee-5fe5-493d-a520-75fbbe637825.png">
 <img width="608" alt="image" src="https://user-images.githubusercontent.com/47130690/160038383-c9b64ae0-ee2c-479c-90af-1a94b9329d5b.png">
+   
+   
 
+in S3 bucket:   
 
-in S3 bucket:
 <img width="605" alt="image" src="https://user-images.githubusercontent.com/47130690/160038348-4860c108-871f-43ee-af03-69cffa9694fb.png">
 <img width="603" alt="image" src="https://user-images.githubusercontent.com/47130690/160038314-0bc5bbf5-df25-453e-acf1-8d63a5f8e892.png">
 
