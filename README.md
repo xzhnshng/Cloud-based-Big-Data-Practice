@@ -6,8 +6,8 @@ Example systems could be: (AWS Athena, AWS Spark/EMR, AWS Sagemaker, Databricks,
 
 I created a Cloud-based Big Data Systems Project on AWS Spark/EMR. The project is handling weather data ("stationID", "date", "measure_type", "temperature") to find the min temperature (in "measure_type": TMIN) grouped by station.
 
-datasource: weather_data.csv
-spark process code using pyspark: main.py
+- datasource: weather_data.csv
+- spark process code using pyspark: main.py
 
 
 ## Create AWS Spark/EMR cluster
