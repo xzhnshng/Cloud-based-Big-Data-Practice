@@ -103,7 +103,8 @@ $ spark-submit main.py
 ```
 
 ## check result
-in terminal print-out:
+in terminal print-out:    
+
 <img width="580" alt="image" src="https://user-images.githubusercontent.com/47130690/160038403-267801ee-5fe5-493d-a520-75fbbe637825.png">
 <img width="608" alt="image" src="https://user-images.githubusercontent.com/47130690/160038383-c9b64ae0-ee2c-479c-90af-1a94b9329d5b.png">
    
