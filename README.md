@@ -85,7 +85,7 @@ Now the EMR cluster is ready:
 <img width="623" alt="image" src="https://user-images.githubusercontent.com/47130690/160038038-685fe791-1817-4d02-bcbd-ef7f272f6aff.png">
 add port 20 ssh to master node's security group
 
-ssh to EMR cluster /n
+ssh to EMR cluster \n
 <img width="603" alt="image" src="https://user-images.githubusercontent.com/47130690/160038156-b6c8b876-01f2-4c5f-b0cd-266cdfe01eca.png">
 
 ## spark job on EMR cluster
